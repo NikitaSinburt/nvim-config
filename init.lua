@@ -8,5 +8,11 @@ require("sinburt.plugins.lualine")
 require("sinburt.plugins.telescope")
 require("sinburt.plugins.nvim-cmp")
 require("sinburt.plugins.lsp.mason")
+-- error in one of those
 require("sinburt.plugins.lsp.lspsaga")
 require("sinburt.plugins.lsp.lspconfig")
+-------------------
+require("sinburt.plugins.lsp.null-ls")
+require("sinburt.plugins.autopairs")
+require("sinburt.plugins.treesitter")
+require("sinburt.plugins.gitsigns")
