@@ -98,6 +98,11 @@ return packer.startup(function(use)
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+	-- structure navigation
+	use("SmiteshP/nvim-navic")
+	use("MunifTanjim/nui.nvim")
+	use("SmiteshP/nvim-navbuddy")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
