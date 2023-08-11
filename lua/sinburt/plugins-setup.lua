@@ -102,6 +102,7 @@ return packer.startup(function(use)
 	use("SmiteshP/nvim-navic")
 	use("MunifTanjim/nui.nvim")
 	use("SmiteshP/nvim-navbuddy")
+	use("tpope/vim-fugitive")
 
 	if packer_bootstrap then
 		require("packer").sync()
